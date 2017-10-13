@@ -7,12 +7,12 @@ Simple CLI application for managing notes.
 > - view a note
 > - list all notes
 
-### Modules Used
+### Modules Used :
 > - Yargs
 > - OS
 > - FS
 
-### Storage
+### Storage :
 > Stores the notes in the file system in a JSON file.
 
 ### Commands :
