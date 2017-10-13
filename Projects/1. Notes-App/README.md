@@ -1,7 +1,7 @@
 # Notes Application
 >Simple CLI application for managing notes.
 >
->###Operations possible :
+>### Operations possible :
 > - add a note
 > - delete a note
 > - view a note
