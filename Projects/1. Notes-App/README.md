@@ -12,10 +12,13 @@
 > ```sh
 > node app.js add -t "Title of note" -b "Body of note"
 >```
->
+> or without alias
+>```sh
+> node app.js add --title "Title of note" --body "Body of note"
+>```
 >
 > - list
 > - read
 > - delete
-> --help
+> - --help
 
