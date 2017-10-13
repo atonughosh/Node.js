@@ -1,5 +1,5 @@
 # Node.js
-> Repository for my Nodejs practice and Projects
+> Repository for my Node.js practice and Projects
 
 ### Projects
 > - CLI Based Notes Application
