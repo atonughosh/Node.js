@@ -22,6 +22,26 @@
 > node app.js list
 >```
 > - read
+> ```sh
+> node app.js read -t "Title of note"
+>```
+> or without alias
+>```sh
+> node app.js read --title "Title of note"
+>```
 > - delete
+> ```sh
+> node app.js delete -t "Title of note"
+>```
+> or without alias
+>```sh
+> node app.js delete --title "Title of note"
+>```
 > - --help
-
+> ```sh
+> node app.js --help
+>```
+> each command supports help as in
+> ```sh
+> node app.js add --help
+>```
