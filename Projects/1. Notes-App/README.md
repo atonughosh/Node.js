@@ -18,6 +18,9 @@
 >```
 >
 > - list
+> ```sh
+> node app.js list
+>```
 > - read
 > - delete
 > - --help
