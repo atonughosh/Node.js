@@ -6,5 +6,16 @@
 > - delete a note
 > - view a note
 > - list all notes
-
+>
+>### Commands :
+> - add
+> ```sh
+> node app.js add -t "Title of note" -b "Body of note"
+>```
+>
+>
+> - list
+> - read
+> - delete
+> --help
 
