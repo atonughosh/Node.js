@@ -22,7 +22,7 @@ Weather is fetched using API call to Dark Sky server.
 >```
 > or
 >```sh
-> node app.js -a "Abu Dhabi"
+> node app.js --address "Abu Dhabi"
 >```
 > or
 >```sh
