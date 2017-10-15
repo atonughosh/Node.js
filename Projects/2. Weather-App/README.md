@@ -1,55 +1,38 @@
-# Notes Application
-Simple CLI application for managing notes.
+# Weather Application
+CLI application to fetch current weather by entering a full address or city or country or PIN code.
+Address is fetched using API call to Google Maps server.
+Weather is fetched using API call to Dark Sky server.
+
+>This application requires an active internet connection to fetch information. 
 
 ### Operations possible :
-> - add a note
-> - delete a note
-> - view a note
-> - list all notes
+> - Get current weather report
 
 ### Modules Used :
 > - Yargs
-> - OS
-> - FS
+> - Request
 
 ### Storage :
-> Stores the notes in the file system in a JSON file.
+> No data is stored in the file system. API calls are used.
 
 ### Commands :
-> - add
-> ```sh
-> node app.js add -t "Title of note" -b "Body of note"
->```
-> or without alias
+> - Get weather
 >```sh
-> node app.js add --title "Title of note" --body "Body of note"
+> node app.js "Kolkata India"
 >```
->
-> - list
-> ```sh
-> node app.js list
->```
-> - read
-> ```sh
-> node app.js read -t "Title of note"
->```
-> or without alias
+> or
 >```sh
-> node app.js read --title "Title of note"
+> node app.js "Abu Dhabi"
 >```
-> - delete
-> ```sh
-> node app.js delete -t "Title of note"
->```
-> or without alias
+> or
 >```sh
-> node app.js delete --title "Title of note"
+> node app.js Chennai
+>```
+> or
+>```sh
+> node app.js 700081
 >```
 > - help
 > ```sh
 > node app.js --help
->```
-> each command supports help as in
-> ```sh
-> node app.js add --help
 >```
