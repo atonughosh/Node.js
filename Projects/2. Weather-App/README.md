@@ -18,19 +18,19 @@ Weather is fetched using API call to Dark Sky server.
 ### Commands :
 > - Get weather
 >```sh
-> node app.js "Kolkata India"
+> node app.js -a "Kolkata India"
 >```
 > or
 >```sh
-> node app.js "Abu Dhabi"
+> node app.js -a "Abu Dhabi"
 >```
 > or
 >```sh
-> node app.js Chennai
+> node app.js -a Chennai
 >```
 > or
 >```sh
-> node app.js 700081
+> node app.js -a 700081
 >```
 > - help
 > ```sh
