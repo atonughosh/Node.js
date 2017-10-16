@@ -1,7 +1,7 @@
 # Weather Application
 CLI application to fetch current weather by entering a full address or city or country or PIN code.
 Address is fetched using API call to Google Maps server.
-Weather is fetched using API call to Dark Sky server.
+Weather is fetched using API call to [Dark Sky](https://www.darksky.net) server.
 
 >This application requires an active internet connection to fetch information. 
 
