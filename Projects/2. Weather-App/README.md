@@ -10,7 +10,8 @@ Weather is fetched using API call to [Dark Sky](https://www.darksky.net) server.
 
 ### Modules Used :
 > - Yargs
-> - Request
+> - Request (Used in app without promises)
+> - Axios (Used in app with promises)
 
 ### Storage :
 > No data is stored in the file system. API calls are used.
